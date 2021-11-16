@@ -14,16 +14,11 @@ const StyledButton = (props) => {
     }
   });
 
-  /* currentbackgroundColor = isClicked === "true" ? "black" : "white"; */
-  /* const currentOpacity = type === "primary" ? 1 : 0; */
   return (
     <View style={styles.container}>
       <Pressable
         style={[styles.button, { backgroundColor: currentbackgroundColor }]}
         onPress={() => {
-          console.log(
-            "komponentin sisällä " + isClicked + currentbackgroundColor
-          );
           onPress();
         }}
       >
@@ -34,4 +29,3 @@ const StyledButton = (props) => {
 };
 
 export default StyledButton;
-/*  : ; */

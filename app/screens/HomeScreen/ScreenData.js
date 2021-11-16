@@ -1,17 +1,13 @@
 import React from "react";
-import { View, Text, FlatList, Dimensions } from "react-native";
-import IntroductionData from "./IntroductionData";
-import StaffData from "./StaffData";
-import styles from "./styles.js";
-import Screen from "./index";
-import Logo from "../LogoComponent/Logo";
+import { View, Text, FlatList, Dimensions, StyleSheet } from "react-native";
+import IntroductionData from "./Data/IntroductionData";
+import StaffData from "./Data/StaffData";
+import Screen from "./Screen.js";
 
-export default function MapData(props) {
+export default function ScreenData(props) {
   const { type } = props;
 
-  /* const currentbackgroundColor = type === "primary" ? "#603F8B" : "#A16AE8"; */
   const currentPageData = type === true ? IntroductionData : StaffData;
-  console.log(type);
   return (
     <View>
       <FlatList
@@ -26,3 +22,9 @@ export default function MapData(props) {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    width: "100%",
+  },
+});

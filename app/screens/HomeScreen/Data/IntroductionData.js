@@ -3,7 +3,7 @@ export default [
     id: 2,
     name: "Valmennus",
     subtitle: "Vuosien kokemuksella.",
-    image: require("../../assets/valmennus.jpg"),
+    image: require("../../../assets/valmennus.jpg"),
     introduction:
       "sali teksti sali teksti sali teksti sali teksti sali teksti sali teksti sali teksti sali teksti",
   },
@@ -11,7 +11,7 @@ export default [
     id: 3,
     name: "Hieronta",
     subtitle: "Ammattitaitoista hierontaa.",
-    image: require("../../assets/hyvinvointi.jpg"),
+    image: require("../../../assets/hyvinvointi.jpg"),
     introduction:
       "hieronta teksti hieronta teksti hieronta teksti hieronta teksti hieronta teksti hieronta teksti hieronta teksti hieronta teksti",
   },
@@ -19,7 +19,7 @@ export default [
     id: 4,
     name: "Hyvinvointi",
     subtitle: "Vuosien kokemuksella.",
-    image: require("../../assets/hieronta.jpg"),
+    image: require("../../../assets/hieronta.jpg"),
     introduction:
       "hyvivointivalmennus hyvivointivalmennus hyvivointivalmennus hyvivointivalmennus hyvivointivalmennus",
   },
